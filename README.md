@@ -2,7 +2,7 @@
 
 A comprehensive deep learning system for automated detection and classification of brain tumors from MRI images. This system provides robust tumor classification, precise localization through segmentation, and clinical-grade reporting with confidence scores suitable for medical applications.
 
-## 🩺 Features
+##  Features
 
 - **Multi-class Classification**: Distinguishes between No Tumor, Glioma, Meningioma, and Pituitary tumors
 - **Tumor Localization**: U-Net based segmentation for precise tumor boundary detection
@@ -13,7 +13,7 @@ A comprehensive deep learning system for automated detection and classification 
 - **Batch Processing**: Efficient processing of multiple images
 - **Medical Image Support**: Native support for DICOM and NIfTI formats
 
-## 🏗️ Architecture
+## Architecture
 
 ### Classification Model
 - **Base Architecture**: ResNet50 with pre-trained ImageNet weights
@@ -27,7 +27,7 @@ A comprehensive deep learning system for automated detection and classification 
 - **Output**: Binary masks and bounding boxes
 - **Metrics**: Dice coefficient, IoU score, pixel accuracy
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -52,7 +52,7 @@ A comprehensive deep learning system for automated detection and classification 
 └── README.md                 # Documentation
 ```
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**:
 ```bash
